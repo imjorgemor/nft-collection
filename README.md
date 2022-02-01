@@ -1,35 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WEB3 NFT-COLLECTION
+![logo](https://lh3.googleusercontent.com/BNplmOqNyFNllGP1cBgxgA38tQ4g7KnkJR89w0OW9fkY-UfLPQ8JklbzeKWHEWzQ9lVik7cSCSvRmF6SyHQEICX4wa7ZpepeEb5uWQ=w600)
 
-## Getting Started
 
-First, run the development server:
+* [About The Project](#about)
+* [Built With](#built-with)
+* [Packages and dependencies](#packages-and-dependencies)
+* [Setup](#setup)
+* [Features](#features)
+* [Roadmap](#roadmap)
+* [App preview](#app-preview)
 
+
+## About
+
+Front-end SPA web3 of a NFT collection. I created this website with some cripto-yuppies, already listed at [opensea.io](https://opensea.io/collection/yuppie90s-collection), with the main purpose to try and test main 3rd web features.
+
+
+## Built With
+
+This project has built with:
+* React
+* [Next](https://nextjs.org/) 
+* CSS Modules integrated with Next
+* npm install web3
+
+
+## Packages and dependencies
+* @web3-react/core
+* @web3-react/injected-connector -E
+
+
+## Setup
+
+### Installation
+
+Get a local copy up and run these following simple steps:
+
+Clone the repo
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/your_username_/Project-Name.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install NPM packages
+```bash
+npm install
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Run the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Login with metamask
+Well, this is the main feature and aim of this website, eliminate the always used login with user and email and use a web3 login method like connecting your metamask ID to this website.
 
-## Learn More
+## Roadmap
+* Mobile-first reponsive
+* Change view dependeing on logged in or not with metamask
+* I have always wanted to use Framer Motion linbrary and this is the perfect project to do so.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# nft-collection
+## App preview
+![Main]()
