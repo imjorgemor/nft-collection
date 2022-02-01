@@ -63,4 +63,4 @@ Well, this is the main feature and aim of this website, eliminate the always use
 * I have always wanted to use Framer Motion linbrary and this is the perfect project to do so.
 
 ## App preview
-![Main]()
+![Main](https://github.com/imjorgemor/nft-collection/blob/main/public/assets/ezgif.com-gif-maker.gif)
