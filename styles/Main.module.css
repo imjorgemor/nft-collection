@@ -1,0 +1,85 @@
+.main {
+    max-height: 50vh;
+}
+
+.main-content {
+    display: flex;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #fff;
+}
+
+.yuppie-highlight {
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yuppie-container {
+    border-radius: 1.25rem;
+    overflow: hidden;
+    display: flex;
+    margin-right: 1.25rem;
+}
+
+.selected-yuppie {
+    object-fit: contain;
+}
+
+.yuppie-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
+
+.owner {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.owner-image-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owner-image {
+    object-fit: contain;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.owner-name-handle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.owner-handle {
+    color: #59f9b7;
+    font-weight: 600;
+    
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.title > span {
+    color: #989898;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+

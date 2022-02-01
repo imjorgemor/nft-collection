@@ -1,0 +1,14 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    overflow-x: scroll;
+    margin-top: 1.5rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #fff;
+    gap: 1rem;
+}
+
+.list::-webkit-scrollbar{
+    display: none;
+}
